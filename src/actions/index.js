@@ -3,3 +3,11 @@ export const addUser = () => {
     type: 'ADD_USER'
   }
 }
+
+
+export const receiveQuizzes = (quizzes) => {
+  return {
+    type: 'GET_QUIZZES',
+    quizzes
+  }
+}
