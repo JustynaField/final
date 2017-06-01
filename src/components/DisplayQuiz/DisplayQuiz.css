@@ -1,0 +1,18 @@
+.quiz{
+  width: 80%;
+  margin: auto;
+}
+
+h2{
+  text-align: center;
+}
+
+.submit-btn{
+  background-color: #418ea9;
+  height: 30px;
+  width: 80px;
+  font-size: 14px;
+  border: none;
+  margin-top: 15px;
+  margin-left: 55px;
+}

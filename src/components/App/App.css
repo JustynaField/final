@@ -1,1 +1,9 @@
+.App {
+  background-color: #97bcc9;
+  padding: 20px 0;
+  font-family: opensans
+}
 
+h1{
+  text-align: center
+}

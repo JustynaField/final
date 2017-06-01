@@ -1,5 +1,6 @@
 import React from 'react';
 import { QuizCard } from '../QuizCard/QuizCard';
+import './DisplayQuiz.css'
 
 export const DisplayQuiz = ({quizzes}) => {
 
@@ -8,12 +9,12 @@ export const DisplayQuiz = ({quizzes}) => {
       <div>Fetching Data</div>
     )
   } else {
-    return (
 
-      <section>
+    return (
+      <section className='quiz'>
       <h2>{quizzes[0].quizzes[0].title}</h2>
       <QuizCard questions={quizzes[0].quizzes[0].questions} />
-
+      <button className='submit-btn'>Submit</button>
       </section>
     )
   }
