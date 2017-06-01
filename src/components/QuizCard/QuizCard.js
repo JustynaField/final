@@ -3,7 +3,6 @@ import { Answers } from '../Answers/Answers';
 import './QuizCard.css'
 
 export const QuizCard = ({questions}) => {
-console.log('PROPS',questions)
 
   const question = questions.map((question, index) => {
 

@@ -9,10 +9,11 @@ class App extends Component {
     fetch('/quizzes')
     .then((res) => res.json())
     .then((obj) => {
-      console.log(obj)
       this.props.receiveQuizzes(obj)
     })
   }
+
+  
 
   render() {
     return (

@@ -1,13 +1,17 @@
-.quiz{
+.loading {
+  text-align: center
+}
+
+.quiz {
   width: 80%;
   margin: auto;
 }
 
-h2{
+h2 {
   text-align: center;
 }
 
-.submit-btn{
+.submit-btn {
   background-color: #418ea9;
   height: 30px;
   width: 80px;

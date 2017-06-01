@@ -2,7 +2,7 @@ import React from 'react';
 import './Answers.css'
 
 export const Answers = ({ans, id}) => {
-console.log(ans)
+
   const answers = ans.map((answer, index) => {
 
     return(
